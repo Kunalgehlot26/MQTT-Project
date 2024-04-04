@@ -5,7 +5,6 @@ This Python script is designed to publish vehicle data to an MQTT broker. It uti
 Prerequisites
 Python 3.x installed on your system.
 Paho MQTT client library. You can install it using pip:
-Copy code
 pip install paho-mqtt
 Usage
 Setup MQTT Broker: Ensure you have an MQTT broker configured and running. The code is currently configured to use the public MQTT broker hosted at test.mosquitto.org. You can replace broker_address with your MQTT broker's address if needed.
